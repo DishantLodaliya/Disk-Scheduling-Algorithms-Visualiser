@@ -211,7 +211,7 @@ function start() {
         break;
     }
     showCanvas(headPath);
-    showMoveNumber(headPath);
+    showMoveNumber(headPath); 
   }
 }
 document.querySelector('.startbtn').addEventListener('click', start);
