@@ -1,5 +1,5 @@
 let trackSequence = [];
-const track = 200;
+const track =  200;
 const trackNumber = 40;
 
 function generateTrackNumberSequence(num) {
