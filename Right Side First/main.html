@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Disk Scheduling Algorithm</title>
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+  <div class="layout">
+    <div class="borderlayout">
+      <button data-algorithm="fcfs" class="option">FCFS</button>
+      <button data-algorithm="sstf" class="option">SSTF</button>
+      <button data-algorithm="scan" class="option">SCAN</button>
+      <button data-algorithm="c-scan" class="option">C-SCAN</button>
+    </div>
+    <div class="main">
+      <b>Enter Intial Head Pointer:</b><input type="text" class="headposition">
+      <b>Enter Values to Visit At Sectors:</b><input style="width: 450px" type="text" class="values">
+      <button class="startbtn">Run</button>
+    </div>
+    <p class="error-msg"></p>
+    <div class="card">
+      <canvas id="draw"></canvas>
+    </div>
+  </div>
+  <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
